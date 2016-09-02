@@ -20,3 +20,9 @@ num=0
 for n in range(1,101):
 	num += n
 print num
+d = {1:'aaa',2:'bbb',3:'ccc',4:'ddd'}
+for k,v in d.items():
+	print k
+	print v
+else:
+	print "ending..."
