@@ -36,3 +36,11 @@ for k,v in d.items():
 		print "test continue"
 else:
 	print "ending..."
+while i!='e':
+	print 2333333
+	i=raw_input("input next key:")
+	
+	if not i:
+		break
+else:
+	print "ending...."
