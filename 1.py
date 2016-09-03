@@ -1,4 +1,5 @@
 #!/usr/bin/python
+#coding:utf8
 
 def fun():
 	x=int(raw_input("please input:"))
@@ -43,4 +44,31 @@ while i!='e':
 	if not i:
 		break
 else:
-	print "ending...."
+	print "ending..."
+def isE(x,y):
+	if x==y:
+		print x,'=',y
+	else:
+		print x,'!=',y
+a=raw_input("give a:")
+b=raw_input("give b:")
+
+isE(a,b)
+
+def mashine(x=3,y="呵呵"):
+	print "生成一个",x,"型",y,"类的螺丝"
+mashine()
+mashine(y="噗")
+mashine(4)
+x="i am a global var"
+def prr():
+	global y
+	y = 200
+
+	global x
+	x = 100
+
+print x
+prr()
+print x
+print y
