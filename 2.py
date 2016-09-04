@@ -1,13 +1,15 @@
 #!/usr/bin/python
 #coding:utf8
 
-def fun():
-	if True:
-		print "a"
-		return True
+def fun(n):
+	if n>0:
+		return n*fun(n-1)	
 	else:
-		print "b"
-		return 0
+		return 1
 
-a=fun()
+a=fun(5)
 print a
+l=range(1,6)
+print reduce(lambda x,y:x-y,l)
+sum=reduce(lambda x,y:x+y,l)
+print sum
