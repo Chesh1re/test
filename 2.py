@@ -13,3 +13,10 @@ l=range(1,6)
 print reduce(lambda x,y:x-y,l)
 sum=reduce(lambda x,y:x+y,l)
 print sum
+import master
+import master as cc
+cc.master()
+from master import master 
+master()
+
+

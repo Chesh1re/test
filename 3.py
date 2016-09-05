@@ -34,4 +34,5 @@ def f(x,o,y):
 	return operator.get(o)(x,y)
 print add(2,3)
 print f(3,"+",2)
-
+def pp():
+	print "this is pp"
