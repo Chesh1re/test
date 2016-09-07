@@ -1,0 +1,8 @@
+r for read only 
+r+ for read/write ,写入光标在开头，read读完后在尾
+w for write:delete origin file
+w+ for write/read,delete origin file
+a for write ,at the end of the file
+a+ for write/read
+b for binary
+U for blank(when using different OS)
