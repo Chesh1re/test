@@ -18,5 +18,3 @@ import master as cc
 cc.master()
 from master import master 
 master()
-
-

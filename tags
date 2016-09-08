@@ -1,0 +1,95 @@
+!_TAG_FILE_FORMAT	2	/extended format; --format=1 will not append ;" to lines/
+!_TAG_FILE_SORTED	1	/0=unsorted, 1=sorted, 2=foldcase/
+!_TAG_PROGRAM_AUTHOR	Darren Hiebert	/dhiebert@users.sourceforge.net/
+!_TAG_PROGRAM_NAME	Exuberant Ctags	//
+!_TAG_PROGRAM_URL	http://ctags.sourceforge.net	/official site/
+!_TAG_PROGRAM_VERSION	5.8	//
+a	1.py	/^a=raw_input("give a:")$/;"	v
+a	2.py	/^a=fun(5)$/;"	v
+a	4.py	/^a=[1,2,3]$/;"	v
+a	5.py	/^a=r"\\d"   # 0-9   \\D   \\s null   \\S  \\w numalphabet \\W$/;"	v
+a	6.py	/^a=r'ab'$/;"	v
+a	7.py	/^a=[1,2,3,['a','b','c'],'d']$/;"	v
+aa	5.py	/^aa=r"[0-9a-zA-Z]"$/;"	v
+aaa	5.py	/^aaa=r"01*0"$/;"	v
+aaa	5.py	/^aaa=r"01+0"$/;"	v
+aaa	5.py	/^aaa=r"ab*?"$/;"	v
+aaa	5.py	/^aaa=r"ab+?"$/;"	v
+add	3.py	/^def add(x,y):$/;"	f
+allfile	testdir/10.py	/^allfile=[]$/;"	v
+b	1.py	/^b=raw_input("give b:")$/;"	v
+b	4.py	/^b=[3,4,5]$/;"	v
+b	7.py	/^b=a$/;"	v
+bb	5.py	/^bb=r"abc$"$/;"	v
+bb	5.py	/^bb=r"abc[$]"$/;"	v
+c	4.py	/^c=[8,9]$/;"	v
+c	7.py	/^c=copy.copy(a)$/;"	v
+cal	3.py	/^def cal(x,o,y):$/;"	f
+cc	2.py	/^import master as cc$/;"	i
+copy	7.py	/^import copy$/;"	i
+d	1.py	/^d = {1:'aaa',2:'bbb',3:'ccc',4:'ddd'}$/;"	v
+d	7.py	/^d=copy.deepcopy(a)$/;"	v
+dd	1.py	/^dd=['aa','bb','cc','dd','ee']$/;"	v
+dirList	10.py	/^def dirList(path):$/;"	f
+dirList	testdir/10.py	/^def dirList(path,allfile):$/;"	f
+div	3.py	/^def div(x,y):$/;"	f
+division	3.py	/^from __future__ import division$/;"	i
+email	6.py	/^email=r"\\w{3}@\\w+(\\.com|\\.cn)"$/;"	v
+f	3.py	/^def f(x,o,y):$/;"	f
+f0	8.py	/^f0=open('test.txt','r')$/;"	v
+f1	8.py	/^f1=open('tes,txt','w+')$/;"	v
+f3	8.py	/^f3=file('dd.txt','a+')$/;"	v
+ff	4.py	/^def ff(x,y):$/;"	f
+fff	4.py	/^def fff(x):$/;"	f
+filename	11.py	/^filename = raw_input('input')$/;"	v
+fun	1.py	/^def fun():$/;"	f
+fun	2.py	/^def fun(n):$/;"	f
+getHTML	jpg/getjpg.py	/^def getHTML(url):$/;"	f
+getHTML	testdir/jpg/getjpg.py	/^def getHTML(url):$/;"	f
+getIMG	jpg/getjpg.py	/^def getIMG(html):$/;"	f
+getIMG	testdir/jpg/getjpg.py	/^def getIMG(html):$/;"	f
+html	jpg/getjpg.py	/^html=getHTML("http:\/\/tieba.baidu.com\/p\/3885457501")$/;"	v
+html	testdir/jpg/getjpg.py	/^html=getHTML("http:\/\/tieba.baidu.com\/p\/3885457501")$/;"	v
+i	1.py	/^	i=raw_input("input next key:")$/;"	v
+ip	6.py	/^ip="1.2.3.4"$/;"	v
+isE	1.py	/^def isE(x,y):$/;"	f
+l	2.py	/^l=range(1,6)$/;"	v
+l	4.py	/^l=range(1,10)$/;"	v
+l	6.py	/^l=re.compile(a,re.I)$/;"	v
+l	8.py	/^l= ['one\\n','two\\n','three\\n']$/;"	v
+ll	6.py	/^ll=re.compile(r'abcd',re.I)$/;"	v
+mashine	1.py	/^def mashine(x=3,y="呵呵"):$/;"	f
+master	2.py	/^from master import master $/;"	i
+master	2.py	/^import master$/;"	i
+master	master.py	/^def master():$/;"	f
+mul	3.py	/^def mul(x,y):$/;"	f
+num	1.py	/^num=0$/;"	v
+operator	3.py	/^operator = {"+":add,"-":sub,"*":mul,"\/":div}$/;"	v
+os	10.py	/^import os$/;"	i
+os	9.py	/^import os $/;"	i
+os	testdir/10.py	/^import os$/;"	i
+p_tel	6.py	/^p_tel=re.compile(r1)$/;"	v
+pp	3.py	/^def pp():$/;"	f
+prr	1.py	/^def prr():$/;"	f
+r	5.py	/^r= r"\\^abc"$/;"	v
+r	5.py	/^r= r"^abc"$/;"	v
+r	5.py	/^r=r"^010-?\\d{8}$"$/;"	v
+r	5.py	/^r=r"^010-\\d\\d\\d\\d\\d\\d\\d\\d$"$/;"	v
+r	5.py	/^r=r"^010-\\d{8}$"$/;"	v
+r1	6.py	/^r1=r"^\\d{3,4}-?\\d{8}$"$/;"	v
+re	5.py	/^import re$/;"	i
+re	6.py	/^import re$/;"	i
+re	jpg/getjpg.py	/^import re$/;"	i
+re	testdir/jpg/getjpg.py	/^import re$/;"	i
+rs	6.py	/^rs=r'c..t'$/;"	v
+s	5.py	/^s=r"t[^oi]p"$/;"	v
+s	5.py	/^s=r"t[oi]p"$/;"	v
+s	5.py	/^s=r'abc'$/;"	v
+s	6.py	/^s=r"123+345-789*000"$/;"	v
+sa	6.py	/^sa=r"^ccb"$/;"	v
+st	5.py	/^st="top tip tap twp tep"$/;"	v
+sub	3.py	/^def sub(x,y):$/;"	f
+sum	2.py	/^sum=reduce(lambda x,y:x+y,l)$/;"	v
+urllib	jpg/getjpg.py	/^import urllib$/;"	i
+urllib	testdir/jpg/getjpg.py	/^import urllib$/;"	i
+x	1.py	/^x="i am a global var"$/;"	v
