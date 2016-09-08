@@ -19,7 +19,7 @@ update ... set name='' where ..
 (('amy', '001'),)
 >>> cur.fetchmany(3)
 (('tom', '002'), ('tomy', '003'))
->>>
+>>> conn.commit()
 >>> cur.close()
 >>> conn.close()
 
