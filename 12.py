@@ -1,6 +1,9 @@
 >>> import MySQLdb
 >>> conn = MySQLdb.connect(user='root',passwd='admin',host='127.0.0.1')
+>>> conn.select_db('week')
+
 >>> cur= conn.cursor()
+
 >>> cur.execute("insert into new_table values('tom','002')")
 >>> sql = "insert into new_table values(%s,%s)"
 >>> cur.execute(sql,('tomy','003'))
