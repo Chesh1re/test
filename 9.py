@@ -1,0 +1,10 @@
+import os 
+os.mkdir('aa')
+os.makedirs('b/c/d')
+print os.listdir('.')
+print os.listdir('documents')
+print os.getcwd()
+os.rmdir('aa')
+os.removedirs('b/c/d')
+os.chdir('/')
+print os.getcwd()
