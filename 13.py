@@ -4,7 +4,7 @@ class XX:
 	def c(self):
 		return "this is function c"
 
-x=XX();
+x=XX()
 print x.a
 print x.b
 print x.c()
